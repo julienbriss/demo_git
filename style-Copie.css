@@ -1,0 +1,120 @@
+@font-face { /*Chargement d'une police*/
+    font-family: 'Graduate';
+    src: url('graduate/graduate-regular.ttf') format('truetype');
+}
+
+
+body
+{
+	font-family: Arial,sans-serif;
+}
+
+h1,h2 /*titres principaux et secondaires*/
+{
+    color: rgb(50,50,50);
+    font-family: Graduate,Impact,"Arial Black",sans-serif;
+}
+
+
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: blue;
+   font-style: oblique;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   color: purple;
+}
+
+#intro
+{
+	text-align: center;
+}
+
+
+ aside
+ {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-around;
+	align-items: center;
+ 	background-color: #072551;
+	padding: 0.5em;
+	margin-left: 1%;
+	border-radius: 10px;
+ 	width: 15%;
+ 	height: 600px;
+ }
+
+#main-content
+{
+	flex:1;
+}
+
+#topsection
+{
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: #b8b5b5;
+	padding: 0.5em;
+	border-radius: 10px;
+
+}
+
+#conteneur
+{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 1em;
+}
+
+
+
+.intitule,h3
+{
+	font-weight: bold;
+	color : #444444;
+}
+
+.photo
+{
+	border: 1px #BAAC73 solid;
+	border-radius: 10px;
+}
+
+ #portrait
+ {
+ 	align-self: center;	
+ }
+
+
+
+#cv-content
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+ #langages h2
+ {
+ 	color: #FFFFFF;
+ 	text-align: center;
+ }
+
+ #langages img
+ {
+ 	max-width: 100%;
+	height: auto;
+ }
+
+ .child
+ {
+ 	width: 30%;
+ }
